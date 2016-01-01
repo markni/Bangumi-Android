@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#333333</color>
+    <color name="primary_dark">#222222</color>
+    <color name="primary_light">#666666</color>
+    <color name="accent">#36A3DB</color>
+    <color name="accent_fallback">#E64A19</color>
+
+    <color name="text_primary">#fcfcfc</color>
+    <color name="text_label_primary">@color/accent</color>
+    <color name="text_primary_light">#222222</color>
+    <color name="text_secondary">#c6c6c6</color>
+    <color name="text_hint_for_dark">#9c9c9c</color>
+
+    <color name="calendar_monday">#ff6600</color>
+    <color name="calendar_tuesday">#ff9e01</color>
+    <color name="calendar_wednesday">#b0de09</color>
+    <color name="calendar_thursday">#55bb22</color>
+    <color name="calendar_friday">#0085c8</color>
+    <color name="calendar_saturday">#0455a6</color>
+    <color name="calendar_sunday">#ff0f00</color>
+
+
+    <color name="background_dark">@color/primary_dark</color>
+
+    <color name="ep_wish">#ff7350</color>
+
+    <color name="grey_300">#c2c2c2</color>
+    <color name="grey_500">#9E9E9E</color>
+</resources>

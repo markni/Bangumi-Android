@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="@dimen/base_padding"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="@dimen/drawer_header_min_height"
+    android:background="@color/primary">
+
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:id="@+id/user_avatar"
+        android:layout_width="@dimen/image_avatar_size"
+        android:layout_height="@dimen/image_avatar_size"
+        android:src="@drawable/ic_person_white_48dp"
+        app:riv_corner_radius="@dimen/image_avatar_size" />
+
+    <TextView
+        android:id="@+id/user_nickname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/user_avatar"
+        android:layout_marginTop="@dimen/base_space"
+        android:text="@string/label_please_login_first"
+        android:textSize="@dimen/text_body"
+        android:fontFamily="sans-serif-medium"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        />
+
+    <TextView
+        android:id="@+id/user_sign"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/user_nickname"
+        android:layout_marginTop="@dimen/base_space_small"
+        android:textSize="@dimen/text_body"
+        android:textColor="@color/secondary_text_default_material_dark"
+        />
+
+</RelativeLayout>

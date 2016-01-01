@@ -1,0 +1,89 @@
+<resources>
+    <string name="app_name">Bangumi M</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_calendar">每日放送</string>
+    <string name="title_loading">加载中</string>
+    <string name="title_login">登录</string>
+    <string name="title_collection">我的进度</string>
+    <string name="title_rakuen">超展开</string>
+    <string name="title_about">关于</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- menu -->
+    <string name="menu_settings">设置</string>
+    <string name="menu_logout">登出</string>
+    <string name="menu_search">搜索</string>
+
+    <!-- tabs -->
+    <string name="tabs_sunday">星期日</string>
+    <string name="tabs_monday">星期一</string>
+    <string name="tabs_tuesday">星期二</string>
+    <string name="tabs_wednesday">星期三</string>
+    <string name="tabs_thursday">星期四</string>
+    <string name="tabs_friday">星期五</string>
+    <string name="tabs_saturday">星期六</string>
+    <string name="tabs_subject_info">作品信息</string>
+    <string name="tabs_subject_progress">观看进度</string>
+    <string name="tabs_subject_grade">我的评价</string>
+
+    <!-- field (EditText) -->
+    <string name="field_username">用户名</string>
+    <string name="field_email">邮箱</string>
+    <string name="field_password">密码</string>
+
+    <!-- hint -->
+    <string name="hint_search_subject">请输入词条名字</string>
+    <string name="hint_please_type_comments">请吐槽</string>
+
+    <!-- error -->
+    <string name="error_username_must_not_be_empty">用户名不能为空</string>
+    <string name="error_password_must_not_be_empty">密码不能为空</string>
+
+    <!-- toast -->
+    <string name="toast_network_error">网络错误，请重试</string>
+    <string name="toast_username_or_password_wrong">用户名或密码错误</string>
+    <string name="toast_login_successfully">登录成功</string>
+    <string name="toast_ep_update_successfully">进度已更新</string>
+    <string name="toast_get_collections">已经获取最新的进度</string>
+    <string name="toast_search_results_successfully">共搜索到 %1$d 条结果，只显示前 %2$d 条结果</string>
+    <string name="toast_search_no_results">搜索不到结果</string>
+    <string name="toast_please_login_first">@string/label_please_login_first</string>
+    <string name="toast_please_choose_collection_status">请选择观看状态</string>
+    <string name="toast_collection_update_successfully">已更新</string>
+
+    <!-- label (TextView) -->
+    <string name="label_subject_summary">作品简介</string>
+    <string name="label_subject_date">放送日期</string>
+    <string name="label_subject_weekday">放送星期</string>
+    <string name="label_subject_web">其他具体内容</string>
+    <string name="label_subject_type">类型</string>
+    <string name="label_subject_status">状态</string>
+    <string name="label_subject_rating">评分</string>
+    <string name="label_subject_comment">吐槽</string>
+    <string name="label_please_login_first">未登录</string>
+    <string name="label_subject_status_default">暂无</string>
+    <string name="label_subject_rating_default">暂无</string>
+    <string name="label_subject_comment_default">暂无吐槽</string>
+    <string name="label_about_bangumi">关于Bangumi </string>
+    <string name="label_about_bangumi_detail">Bangumi 是由 Sai 于桂林发起的 ACG 分享与交流项目，致力于让阿宅们在欣赏ACG作品之余拥有一个轻松便捷独特的交流与沟通环境。\n\n具体请登录 http://bangumi.tv/ 查询。</string>
+    <string name="label_about_app">关于本App</string>
+    <string name="label_about_app_detail">本 App 是非官方客户端，代码开源存放在 Github 上，无广告，无跟踪，无捆绑销售，可以放心使用。</string>
+    <string name="label_about_author">关于作者</string>
+    <string name="label_about_author_detail">程序+设计: scarletsky \n\n图片+启动图标: hotfloor </string>
+
+    <!-- dialog -->
+    <string name="dialog_logining">登录中…</string>
+    <string name="dialog_ep_updating">进度更新中</string>
+
+    <string name="wish">想看</string>
+    <string name="queue">@string/wish</string>
+    <string name="watched">看过</string>
+    <string name="watching">在看</string>
+    <string name="on_hold">搁置</string>
+    <string name="drop">抛弃</string>
+    <string name="drop_collection">弃番</string>
+    <string name="undo">撤销</string>
+
+
+</resources>

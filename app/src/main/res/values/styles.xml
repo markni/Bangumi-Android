@@ -1,0 +1,126 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/accent</item>
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <item name="android:textColorSecondary">@color/text_secondary</item>
+        <item name="android:windowBackground">@color/background_dark</item>
+
+        <item name="android:windowContentTransitions">true</item>
+
+        <!-- enable overlap of transitions -->
+
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.TextAppearance.AppCompat.Headline" parent="TextAppearance.AppCompat.Headline">
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">1</item>
+        <item name="android:singleLine">false</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+
+    <!-- card -->
+    <style name="card_base">
+        <item name="android:layout_width">@dimen/card_base_width</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">0dp</item>
+    </style>
+
+    <style name="card_base_image">
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/card_base_image_height</item>
+        <item name="android:layout_alignParentTop">true</item>
+    </style>
+
+    <style name="card_base_title">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:padding">@dimen/card_base_title_padding</item>
+        <item name="android:textSize">@dimen/card_base_title_size</item>
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">1</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="card_progress_bar" parent="@android:style/Widget.Holo.ProgressBar.Horizontal">
+
+    </style>
+
+    <style name="card_progress_label">
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">1</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <!-- tabs -->
+    <style name="tabs_base" parent="Base.Widget.Design.TabLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/primary</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="tabGravity">fill</item>
+        <item name="tabMode">fixed</item>
+    </style>
+
+    <style name="tabs_scrollable" parent="tabs_base">
+        <item name="tabGravity">center</item>
+        <item name="tabMode">scrollable</item>
+    </style>
+
+    <!-- label -->
+    <style name="label_primary">
+        <item name="android:textColor">@color/text_label_primary</item>
+        <item name="android:textSize">@dimen/text_body</item>
+        <item name="android:paddingBottom">@dimen/base_padding</item>
+    </style>
+
+    <style name="text_primary">
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textSize">@dimen/text_body</item>
+        <item name="android:paddingBottom">@dimen/base_padding</item>
+    </style>
+
+    <!-- button -->
+    <style name="button_rectangle">
+        <item name="android:minWidth">@dimen/btn_min_width</item>
+        <item name="android:height">@dimen/btn_height</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">@drawable/button_rectangle</item>
+    </style>
+
+    <style name="fab">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/base_space</item>
+        <item name="android:layout_gravity">end|bottom</item>
+    </style>
+
+    <style name="radio">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/text_primary</item>
+    </style>
+</resources>

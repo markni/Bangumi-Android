@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_wish"
+        android:title="@string/queue"
+        />
+    <item
+        android:id="@+id/menu_watched"
+        android:title="@string/watched"
+        />
+    <item
+        android:id="@+id/menu_drop"
+        android:title="@string/drop"
+        />
+</menu>

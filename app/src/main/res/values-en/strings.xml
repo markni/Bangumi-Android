@@ -1,0 +1,89 @@
+<resources>
+    <string name="app_name">Bangumi M</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_calendar">Calendar</string>
+    <string name="title_loading">Loading</string>
+    <string name="title_login">Login</string>
+    <string name="title_collection">Progress</string>
+    <string name="title_rakuen">Forum</string>
+    <string name="title_about">About</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- menu -->
+    <string name="menu_settings">Settings</string>
+    <string name="menu_logout">Logout</string>
+    <string name="menu_search">Search</string>
+
+    <!-- tabs -->
+    <string name="tabs_sunday">Sunday</string>
+    <string name="tabs_monday">Monday</string>
+    <string name="tabs_tuesday">Tuesday</string>
+    <string name="tabs_wednesday">Wednesday</string>
+    <string name="tabs_thursday">Thursday</string>
+    <string name="tabs_friday">Friday</string>
+    <string name="tabs_saturday">Saturday</string>
+    <string name="tabs_subject_info">Details</string>
+    <string name="tabs_subject_progress">Progress</string>
+    <string name="tabs_subject_grade">Rating</string>
+
+    <!-- field (EditText) -->
+    <string name="field_username">Username</string>
+    <string name="field_email">Email</string>
+    <string name="field_password">Password</string>
+
+    <!-- hint -->
+    <string name="hint_search_subject">Enter some keywords</string>
+    <string name="hint_please_type_comments">Please enter comments</string>
+
+    <!-- error -->
+    <string name="error_username_must_not_be_empty">Invalid Email</string>
+    <string name="error_password_must_not_be_empty">Invalid Password</string>
+
+    <!-- toast -->
+    <string name="toast_network_error">Network error, please try again.</string>
+    <string name="toast_username_or_password_wrong">Invalid username or email</string>
+    <string name="toast_login_successfully">Welcome back</string>
+    <string name="toast_ep_update_successfully">Updated</string>
+    <string name="toast_get_collections">Updated</string>
+    <string name="toast_search_results_successfully">Showing %2$d / %1$d results</string>
+    <string name="toast_search_no_results">No result</string>
+    <string name="toast_please_login_first">@string/label_please_login_first</string>
+    <string name="toast_please_choose_collection_status">Choose status</string>
+    <string name="toast_collection_update_successfully">Updated</string>
+
+    <!-- label (TextView) -->
+    <string name="label_subject_summary">Summary</string>
+    <string name="label_subject_date">Air date</string>
+    <string name="label_subject_weekday">Air day</string>
+    <string name="label_subject_web">Misc</string>
+    <string name="label_subject_type">Type</string>
+    <string name="label_subject_status">Status</string>
+    <string name="label_subject_rating">Rating</string>
+    <string name="label_subject_comment">Comment</string>
+    <string name="label_please_login_first">Please login first</string>
+    <string name="label_subject_status_default">N/A</string>
+    <string name="label_subject_rating_default">N/A</string>
+    <string name="label_subject_comment_default">N/A</string>
+    <string name="label_about_bangumi">About Bangumi </string>
+    <string name="label_about_bangumi_detail">Bangumi 是由 Sai 于桂林发起的 ACG 分享与交流项目，致力于让阿宅们在欣赏ACG作品之余拥有一个轻松便捷独特的交流与沟通环境。\n\n具体请登录 http://bangumi.tv/ 查询。</string>
+    <string name="label_about_app">About this APP</string>
+    <string name="label_about_app_detail">本 App 是非官方客户端，代码开源存放在 Github 上，无广告，无跟踪，无捆绑销售，可以放心使用。</string>
+    <string name="label_about_author">Authors</string>
+    <string name="label_about_author_detail">程序+设计: scarletsky \n\n图片+启动图标: hotfloor </string>
+
+    <!-- dialog -->
+    <string name="dialog_logining">Loading...</string>
+    <string name="dialog_ep_updating">Updating...</string>
+
+    <string name="wish">Wish</string>
+    <string name="queue">@string/wish</string>
+    <string name="watched">Watched</string>
+    <string name="watching">Watching</string>
+    <string name="on_hold">Hold</string>
+    <string name="drop">Drop</string>
+    <string name="drop_collection">Drop</string>
+    <string name="undo">Undo</string>
+
+
+</resources>

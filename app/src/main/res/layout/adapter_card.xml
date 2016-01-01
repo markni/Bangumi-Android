@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card"
+    style="@style/card_base"
+    app:cardBackgroundColor="@color/background_dark">
+
+
+    <ImageView
+        android:id="@+id/card_image"
+        style="@style/card_base_image"
+        android:tint="@color/grey_300"
+        android:transitionName="subject_cover"
+        android:tintMode="multiply" />
+
+    <TextView
+        android:id="@+id/card_title"
+        style="@style/card_base_title"
+        android:background="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:focusable="true" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        android:orientation="vertical"
+        android:padding="@dimen/card_base_margin">
+        <TextView
+            android:id="@+id/card_progress_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:textColor="@color/text_secondary"
+            android:textSize="@dimen/text_caption"
+            style="@style/card_progress_label"
+            android:visibility="gone" />
+        <ProgressBar
+            android:id="@+id/card_progress"
+            style="@android:style/Widget.Material.ProgressBar.Horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/progress_height"
+            android:layout_below="@id/card_progress_label"
+
+            android:visibility="gone" />
+
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

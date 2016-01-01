@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/group_feature">
+        <item
+            android:id="@+id/menu_login"
+            android:icon="@drawable/ic_action_login"
+            android:title="@string/title_login"
+            />
+        <item
+            android:id="@+id/menu_collection"
+            android:icon="@drawable/ic_action_list"
+            android:title="@string/title_collection"
+            />
+        <item
+            android:id="@+id/menu_rakuen"
+            android:icon="@drawable/ic_action_announcement"
+            android:title="@string/title_rakuen"
+            />
+        <item
+            android:id="@+id/menu_calendar"
+            android:icon="@drawable/ic_event_white_48dp"
+            android:title="@string/title_calendar"
+            />
+        <item
+            android:id="@+id/menu_search"
+            android:icon="@drawable/ic_action_search_balck"
+            android:title="@string/menu_search"
+            />
+    </group>
+
+    <group android:id="@+id/group_misc">
+        <item
+            android:id="@+id/menu_about"
+            android:icon="@drawable/ic_action_help"
+            android:title="@string/title_about"
+            />
+        <item
+            android:id="@+id/menu_logout"
+            android:icon="@drawable/ic_action_logout"
+            android:title="@string/menu_logout"
+            />
+    </group>
+
+
+</menu>
